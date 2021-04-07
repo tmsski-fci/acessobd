@@ -1,0 +1,20 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>80</x><y>250</y><w>290</w><h>80</h></coordinates><panel_attributes>Connection
+--
+ 
+--
+prepareStatement(sql: String): PreparedStatement
+close(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>350</y><w>380</w><h>80</h></coordinates><panel_attributes>DriverManager
+--
+ 
+--
+_getConnection(url:String, user:String, pwd:String): Connection_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>170</y><w>290</w><h>70</h></coordinates><panel_attributes>PreparedStatement
+--
+ 
+--
+executeQuery(): ResultSet</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>40</y><w>290</w><h>110</h></coordinates><panel_attributes>ResultSet
+--
+ 
+--
+next(): boolean
+getLong(campo:String): Long
+getBigDecimal(campo: String): BigDecimal</panel_attributes><additional_attributes></additional_attributes></element></diagram>
